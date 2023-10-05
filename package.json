@@ -3,12 +3,11 @@
   "description": "",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "scripts": {
-    "start": "node server.js",
+    "start": "nodemon server.js",
     "seed": "node seeds/seed.js"
   },
   "dependencies": {
@@ -20,6 +19,7 @@
     "express-handlebars": "^7.1.2",
     "express-session": "^1.17.3",
     "mysql2": "^3.6.1",
+    "nodemon": "^3.0.1",
     "sequelize": "^6.33.0"
   }
 }

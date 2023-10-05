@@ -3,3 +3,15 @@
   <p>{{description}}</p>
   <p>Created by {{user.name}} on {{format_date date_created}}</p>
 </div>
+
+{{#each comment}}
+  <p>{{comment.commentText}}</p>
+{{/each}}
+
+<section>
+  <h4>Comment on this post: </h4>
+  <input placeholder="Comment..." class="commentBody"/>
+  <button class="postComment">Post</button>
+</section>
+
+<script src="./js/comment.js"></script>

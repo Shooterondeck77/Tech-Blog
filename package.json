@@ -8,7 +8,7 @@
   "license": "ISC",
   "scripts": {
     "heroku-prebuild": "npm install --dev",
-    "postinstall": "webpack --config webpack.config.js",
+    "postinstall": "npm run webpack",
     "webpack": "webpack",
     "start": "nodemon server.js",
     "seed": "node seeds/seed.js"

@@ -7,8 +7,6 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "postinstall": "npm run webpack",
-    "webpack": "webpack",
     "start": "nodemon server.js",
     "seed": "node seeds/seed.js"
   },

@@ -8,6 +8,7 @@
   "license": "ISC",
   "scripts": {
     "postinstall": "webpack --config webpack.config.js",
+    "webpack": "webpack",
     "start": "nodemon server.js",
     "seed": "node seeds/seed.js"
   },

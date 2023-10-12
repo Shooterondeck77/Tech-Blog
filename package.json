@@ -7,9 +7,6 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "heroku-prebuild": "npm install --dev",
-    "postinstall": "npm run webpack",
-    "webpack": "webpack",
     "start": "nodemon server.js",
     "seed": "node seeds/seed.js"
   },
@@ -24,10 +21,5 @@
     "mysql2": "^3.6.1",
     "nodemon": "^3.0.1",
     "sequelize": "^6.33.0"
-  },
-  "devDependencies": {
-    "html-webpack-plugin": "^5.5.3",
-    "webpack": "^5.88.2",
-    "webpack-cli": "^5.1.4"
   }
 }

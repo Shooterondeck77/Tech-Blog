@@ -11,7 +11,7 @@ Comment.init(
             primaryKey: true,
             autoIncrement: true,
         },
-        commentText: {
+        commentBody: {
             type: DataTypes.STRING
         },
         date_created: {
@@ -39,7 +39,7 @@ Comment.init(
         timestamps: false,
         freezeTableName: true,
         underscored: true,
-        modelName: 'comments',
+        modelName: 'comment',
     }
 );
 
